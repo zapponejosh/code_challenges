@@ -1,5 +1,14 @@
 let polygon_area = (n) => {
-    return n ** 2 + (n - 1) ** 2
+
+    let x = n
+    let total = 0
+    while (x > 0) {
+        total += 2 * ((2 * x) - 1)
+        x -= 1
+    }
+    total -= (2 * n) - 1
+    return total
+
 }
 
 
