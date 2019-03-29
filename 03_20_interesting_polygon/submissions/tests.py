@@ -1,7 +1,7 @@
 import json
 import time
 
-with open('./submissions/answers.json') as f:
+with open('answers.json') as f:
     answers = json.loads(f.read())
 
 
